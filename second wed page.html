@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: #f2f2f2;
+            width: 1350px;
+            height: 70px;
+            /* position: relative; */
+            position: fixed;
+            z-index: 1;
+            /* top: 0;
+            right: 0;
+            left: 0; */
+            
+        }
+        .headerimage1{
+            background-image: url(./first\ header.png);
+            background-size: cover;
+            left: 0px;
+            position: absolute;
+            width: 153px;
+            height: 61px;
+        }
+        .headerimage2{
+            background-image: url(./centreheader.png);
+            background-size: cover;
+            left: 427px;
+            position: absolute;
+            width: 362px;
+            height: 61px;
+            top: 4px;
+        }
+    
+
+        .container1 {
+            width: 1350px;
+            position: relative;
+            display: inline-block;
+            background-color: white;
+            height: 816px;
+            display: inline-block;
+            /* top: 70px; */
+        }
+
+        .c1sign1 {
+            left: 80px;
+            top: 100px;
+            width: 100px;
+            height: 91px;
+            position: absolute;
+            background-image: url("./apple\ sign.png");
+            font-size: 100px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .c1sign2 {
+            left: 95px;
+            top: 260px;
+            width: 43px;
+            height: 41px;
+            position: absolute;
+            background-image: url("./apple\ sign.png");
+            /* font-size: 60px; */
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .watchname {
+            color: black;
+            font-size: 30px;
+            left: 147px;
+            top: 268px;
+            position: absolute;
+        }
+
+        .series {
+            top: 282px;
+            left: 255px;
+            color: red;
+            font-size: 15px;
+            position: absolute;
+        }
+
+        .bignews {
+            top: 335px;
+            left: 80px;
+            font-size: 100px;
+            position: absolute;
+        }
+
+        .c1h1 {
+
+            left: 87px;
+            top: 520px;
+            font-size: 25px;
+            position: absolute;
+        }
+
+        .c1mainimage {
+            width: 684px;
+            height: 431px;
+            left: 553px;
+            top: 350px;
+            position: absolute;
+            background-image: url("./first.jpeg");
+            background-size: cover;
+        }
+
+        .button {
+            left: 146px;
+            top: 737px;
+            position: absolute;
+            width: 250px;
+            height: 36px;
+            background-color: red;
+            color: white;
+            font-size: 22px;
+            border-radius: 5px;
+        }
+
+        /* --------------------------------------------1--------------------------------------------------------- */
+        .container2 {
+            width: 1350px;
+            position: relative;
+            display: inline-block;
+            background-image: url("./c2bdimade.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: inline-block;
+            height: 604px;
+        }
+
+        .c2mainimage {
+            left: -10px;
+            width: 633px;
+            height: 600px;
+            position: absolute;
+            background-image: url("./second.jpeg");
+            background-repeat: no-repeat;
+            font-size: 500px;
+            background-size: cover;
+        }
+
+        .c2applelogo {
+            left: 670px;
+            top: 23px;
+            width: 100px;
+            height: 100px;
+            background-image: url("./white\ imade.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+        }
+
+        .c2h1 {
+            color: white;
+            top: 153px;
+            left: 688px;
+            position: absolute;
+            display: inline-block;
+            font-size: 40px;
+        }
+
+        .c2totalh2 {
+            position: absolute;
+            left: 668px;
+            top: 220px;
+            color: white;
+        }
+
+        /* -----------------------------------------------------2--------------------------------------------------- */
+
+        .container3 {
+            background-color: #fafafa;
+            position: relative;
+            width: 1350px;
+            height: 565px;
+
+        }
+
+        .c3h1 {
+            background-color: #e5e5e5;
+            width: 400px;
+            height: 70px;
+            font-size: 30px;
+            position: absolute;
+            left: 150px;
+            top: 60px;
+            line-height: 2;
+            text-indent: 15px;
+        }
+
+        .c3h2 {
+            font-size: 25px;
+            position: absolute;
+            top: 175px;
+            left: 150px;
+        }
+
+        .c3image1 {
+            left: 670px;
+            top: 30px;
+            width: 169px;
+            height: 255px;
+            background-image: url("./c3image1.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+
+        }
+
+        .c3image2 {
+            left: 987px;
+            top: 30px;
+            width: 169px;
+            height: 255px;
+            background-image: url("./c3image2.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+
+        }
+
+        .c3image3 {
+            left: 700px;
+            top: 277px;
+            width: 169px;
+            height: 255px;
+            background-image: url("./c33.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+
+        }
+
+        .c3image4 {
+            left: 987px;
+            top: 290px;
+            width: 169px;
+            height: 255px;
+            background-image: url("./c34.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+
+        }
+
+        .c3button {
+            left: 188px;
+            top: 371px;
+            position: absolute;
+            width: 280px;
+            height: 40px;
+            background-color: red;
+            color: white;
+            font-size: 25px;
+            border-radius: 5px;
+        }
+
+        /* --------------------------------------------3----------------------------------------- */
+        .container4 {
+            background-color: #4d4d4d;
+            position: relative;
+            width: 1350px;
+            height: 455px;
+            display: inline-block;
+        }
+
+        .c4main {
+            background-image: url("./c4main\ image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 740px;
+            ;
+            height: 451px;
+            position: absolute;
+        }
+
+        .c4applesign {
+            left: 775px;
+            top: 37px;
+            width: 300px;
+            height: 98px;
+            position: absolute;
+            display: inline-block;
+            background-image: url("./white\ apple.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .c4h1 {
+            color: white;
+            top: 194px;
+            left: 810px;
+            position: absolute;
+            font-size: 20px;
+            display: inline-block;
+        }
+
+        .c4button {
+            width: 160px;
+            height: 34px;
+            border: 1px solid white;
+            left: 902px;
+            top: 336px;
+            position: absolute;
+            font-size: 22px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        /* -------------------------------------------4------------------------------------------ */
+        .container5 {
+            background-color: #fafafa;
+            position: relative;
+            width: 1350px;
+            height: 455px;
+            display: inline-block;
+        }
+
+        .c5mainimage {
+            background-image: url("./c5main\ image.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            width: 619px;
+            height: 450px;
+            left: 716px;
+        }
+
+        .c5apple {
+            background-image: url("./c5apple\ image.png");
+            background-size: cover;
+            width: 77px;
+            height: 69px;
+            left: 150px;
+            top: 66px;
+            position: absolute;
+        }
+
+        .c5h1 {
+            color: #808080;
+            font-size: 27px;
+            left: 171px;
+            top: 140px;
+            position: absolute;
+
+        }
+
+        .c5h2 {
+            color: #808080;
+            font-size: 20px;
+            left: 171px;
+            top: 200px;
+            position: absolute;
+        }
+
+        .c5button {
+            width: 160px;
+            height: 34px;
+            border: 1px solid #808080;
+            left: 170px;
+            top: 366px;
+            position: absolute;
+            font-size: 22px;
+            border-radius: 5px;
+            color: #808080
+        }
+
+        /* --------------------------------5------------------------------------------- */
+        .container6 {
+            background-color: black;
+            position: relative;
+            width: 1350px;
+            height: 600px;
+            display: inline-block;
+
+        }
+
+        .c6mainimage {
+            background-image: url("./c6main\ image.jpeg");
+            background-size: cover;
+            width: 416px;
+            height: 470px;
+            left: 190px;
+            top: 50px;
+            position: absolute;
+        }
+
+        .c6applesign {
+            position: absolute;
+            background-image: url("./white\ imade.jpg");
+            background-size: cover;
+            width: 59px;
+            height: 59px;
+            left: 828px;
+            top: 80px;
+
+        }
+
+        .c6h1 {
+            position: absolute;
+            font-size: 42px;
+            left: 883px;
+            top: 96px;
+            color: white;
+        }
+
+        .c6h2 {
+            position: absolute;
+            font-size: 20px;
+            left: 897px;
+            top: 140px;
+            color: white;
+
+        }
+
+        .c6h3 {
+            position: absolute;
+            font-size: 43px;
+            left: 780px;
+            top: 180px;
+            color: white;
+        }
+
+        .c6h4 {
+            position: absolute;
+            font-size: 20px;
+            left: 780px;
+            top: 280px;
+            color: white;
+        }
+
+        .c6button {
+            width: 160px;
+            height: 34px;
+            border: 1px solid white;
+            color: white;
+            left: 868px;
+            top: 444px;
+            position: absolute;
+            font-size: 22px;
+            border-radius: 5px;
+        }
+
+        /* -------------------------------------------------6------------------------------------ */
+        .container7 {
+            background-color: white;
+            position: relative;
+            width: 1350px;
+            height: 700px;
+            display: inline-block;
+        }
+
+        .c7h1 {
+            color: black;
+            font-size: 50px;
+            position: absolute;
+            left: 400px;
+            top: 50px;
+            display: inline-block
+        }
+
+        .c7h2 {
+            color: rgb(37, 25, 25);
+            font-size: 20px;
+            position: absolute;
+            left: 356px;
+            top: 135px;
+            display: inline-block;
+        }
+
+        .c7mainimage {
+            background-image: url("./c7main\ image.png");
+            background-size: cover;
+            width: 1350px;
+            height: 462px;
+            top: 244px;
+            position: absolute;
+        }
+
+        /* -------------------------------------7----------------------------------------------------- */
+        .container8 {
+            background-color: #808080;
+            position: relative;
+            width: 1350px;
+            height: 450px;
+            display: inline-block;
+        }
+
+        .c8mainimage {
+            background-image: url("./c8main\ image.png");
+            background-size: cover;
+            height: 450px;
+            width: 618px;
+            left: 0px;
+            position: absolute;
+            display: inline-block;
+        }
+
+        .c8apple {
+            background-image: url("./C8APPLE.png");
+            background-size: cover;
+            left: 709px;
+            top: 30px;
+            position: absolute;
+            width: 107px;
+            height: 80px;
+
+        }
+
+        .c8h1 {
+            color: white;
+            left: 734px;
+            top: 124px;
+            position: absolute;
+            display: inline-block;
+            font-size: 38px;
+        }
+
+        .c8h2 {
+            color: white;
+            left: 734px;
+            top: 245px;
+            position: absolute;
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .c8button {
+            width: 160px;
+            height: 34px;
+            border: 1px solid white;
+            color: white;
+            left: 745px;
+            top: 370px;
+            position: absolute;
+            font-size: 22px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* ---------------------------------------8----------------------------------------- */
+        .container9 {
+            position: relative;
+            width: 1350px;
+            height: 564px;
+            display: inline-block;
+            background-color: white;
+        }
+
+        .c9mainimage {
+            background-image: url("./c9main\ image.png");
+            background-size: cover;
+            height: 564px;
+            width: 587px;
+            left: 620px;
+            position: absolute;
+            display: inline;
+        }
+
+        .c9h1 {
+            background-color: #e5e5e5;
+            width: 415px;
+            height: 129px;
+            left: 88px;
+            top: 60px;
+            position: absolute;
+            display: inline-block;
+            font-size: 36px;
+        }
+
+        .c9h2 {
+            left: 88px;
+            top: 218px;
+            position: absolute;
+            font-size: 20px;
+
+        }
+
+        .c9button {
+            left: 82px;
+            top: 413px;
+            position: absolute;
+            width: 280px;
+            height: 40px;
+            background-color: red;
+            color: white;
+            font-size: 25px;
+            border-radius: 5px;
+        }
+
+        /* --------------------------------9----------------------------------- */
+        .container10 {
+            background-color: #4d4d4d;
+            position: relative;
+            width: 1350px;
+            height: 855px;
+            display: inline-block;
+        }
+
+        .c10mainimage {
+            background-image: url("./c10bdimage.jpg");
+            background-size: cover;
+            width: 1350px;
+            height: 688px;
+            position: absolute;
+            display: inline-block;
+            top: 0px;
+
+        }
+
+        .c10box1 {
+            width: 564px;
+            height: 542px;
+            position: absolute;
+            opacity: 0.5;
+            background-color: black;
+            left: 50px;
+            top: 80px;
+        }
+
+        .c10h1 {
+            position: absolute;
+            top: 2px;
+            font-size: 35px;
+            color: white;
+        }
+
+        .c10h2 {
+            position: absolute;
+            top: 40px;
+            font-size: 40px;
+            color: white;
+        }
+
+        .c10h3 {
+            position: absolute;
+            top: 208px;
+            font-size: 22px;
+            color: white;
+        }
+        
+
+.c10button {
+    width: 160px;
+    height: 34px;
+    background-color: transparent;
+    left: 50px;
+    border: 1px solid  white;
+    top: 528px;
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+.c10h4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    top: 720px;
+    left: 617px;
+}
+.c10h5{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    top: 778px;
+    left: 500px;
+
+}
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="headerimage1"></div>
+        <div class="headerimage2"></div>
+    </section>
+    <section class="container1">
+        <div class="c1sign1"></div>
+        <div class="c1sign2"></div>
+        <div class="watchname"> WATCH</div>
+        <div class="series">SERIES 4</div>
+        <div class="bignews"> Big News.</div>
+        <div class="c1h1">
+            Introducing Apple Watch Series 4.<br> Fundamentally Redesigned And Re-<br>Engineered To Help You Stay
+            Even<br> More Active, Healthy, And Connected.
+        </div>
+        <div class="c1mainimage"></div>
+        <div class="button">
+            <center> Watch the keynote</center>
+        </div>
+
+    </section>
+    <!-- ----------------------------------------1page--------------------------------------------------- -->
+    <section class="container2">
+        <div class="c2mainimage"></div>
+        <div class="c2applelogo"></div>
+        <div class="c2h1">Features</div>
+        <div class="c2totalh2">
+            <ul> Arsenic-free glass</ul>
+            <ul>Mercury-free</ul>
+            <ul>BFR-free</ul>
+            <ul>PVC-free</ul>
+            <ul>Berullium-free</ul>
+            <ul>Low-carbon aluminium process</ul>
+            <ul>REACH regulation on nickel</ul>
+            <ul>Eco-friendly packaging</ul>
+
+        </div>
+    </section>
+    <!-- ----------------------------------------------------------2page--------------------------------------------- -->
+    <section class="container3">
+        <div class="c3h1">The New Apple Watch 4</div>
+        <div class="c3h2">Fundamentally redesigned and<br> re-engineered with the largest Apple Watch<br> display yet.
+            Advanced heart monitoring <br>capabilities. </div>
+        <div class="c3image1"></div>
+        <div class="c3image2"></div>
+        <div class="c3image3"></div>
+        <div class="c3image4"></div>
+        <div class="c3button">
+            <center> Watch the keynote</center>
+        </div>
+
+    </section>
+    <!-- -------------------------------------------3page----------------------------------------- -->
+    <section class="container4">
+        <div class="c4main"></div>
+        <div class="c4applesign"></div>
+        <div class="c4h1">
+            New head-to-head competitions. Activity sharing<br> with friends. Personalized coaching. Monthly
+            <br>challenges. Achievement awards. Get all the <br>motivation you need to close your Activity rings
+            <br>every day.
+        </div>
+        <div class="c4button">
+            <center> Learn more </center>
+        </div>
+
+    </section>
+    <!-- -------------------------------------------------4page-------------------------------- -->
+    <section class="container5">
+        <div class="c5mainimage"></div>
+        <div class="c5apple"></div>
+        <div class="c5h1">More Than Just A Sports Watch</div>
+        <div class="c5h2">It’s Like A Trainer That Understands The Ways You<br> Work Out — From Running To Yoga To
+            Swimming —<br> And Puts Every Metric You Need Right On Your Wrist.<br> With Innovations From Start To Finish
+            Line, It’s Made <br>For The Athlete In Us All.</div>
+        <div class="c5button">
+            <center> Learn more </center>
+        </div>
+
+    </section>
+    <!-- --------------------------------------------5page---------------------------------- -->
+    <section class="container6">
+        <div class="c6mainimage"></div>
+        <div class="c6applesign"></div>
+        <div class="c6h1">Watch</div>
+        <div class="c6h2">SERIES 4</div>
+        <div class="c6h3">Made To Motivate.</div>
+        <div class="c6h4">New head-to-head competitions. Activity sharing<br> with friends. Personalized coaching.
+            Monthly<br> challenges. Achievement awards. Get all the<br> motivation you need to close your Activity
+            rings<br> every day.</div>
+        <div class="c6button">
+            <center> Learn more </center>
+        </div>
+
+    </section>
+    <!-- ------------------------------------------6page------------------------------------ -->
+    <section class="container7">
+        <div class="c7h1"> All New. For A Better You </div>
+        <div class="c7h2">
+            <center>Introducing Apple Watch Series 4. Fundamentally redesigned and re-engineered<br> to help you stay
+                even more active, healthy, and connected.</center>
+
+        </div>
+        <div class="c7mainimage"></div>
+    </section>
+    <!-- ------------------------------------------------------------------7page------------------- -->
+    <section class="container8">
+        <div class="c8mainimage"></div>
+        <div class="c8apple"></div>
+        <div class="c8h1">Not Just Evolved,<br> Transformed.</div>
+        <div class="c8h2">The largest Apple Watch display yet. New<br> electrical heart sensor. Re-engineered
+            Digital<br> Crown with haptic feedback.
+
+        </div>
+        <div class="c8button">
+            <center> Learn more </center>
+        </div>
+
+    </section>
+    <!-- -----------------------------------8page------------------------------------ -->
+    <section class="container9">
+        <div class="c9mainimage"></div>
+        <div class="c9h1">There’s An Apple Watch <br>For Everyone.</div>
+        <div class="c9h2">Understanding all the ways you move <br>throughout the day is an essential part of <br>living
+            a healthy life. Apple Watch shows<br> your daily movement as three simple<br> metrics: Move, Exercise, and
+            Stand. </div>
+        <div class="c9button">
+            <center> Watch the keynote</center>
+        </div>
+    </section>
+    <!-- ---------------------------9page------------------------ -->
+    <section class="container10">
+        <div class="c10mainimage"></div>
+        <div class="c10box1">
+            <h1 class="c10h1">WATCH</h1>
+            <h2 class="c10h2">Ready For Whatever<br> Moves You.</h2>
+            <h3 class="c10h3">Whether it’s training for a marathon or swimming laps<br> at the pool, Apple Watch Series
+                4 has something for<br> everyone. Now including yoga and hiking, the Workout<br> app works every way you
+                want to exercise. You can set <br>individual goals, measure your calorie burn, and track <br>your
+                progress over time in the Activity app on your<br> iPhone. Ready? Go.</h3>
+
+        </div>
+        <div >
+            <center><a class="c10button href="">Learn more</a></center>
+        </div>
+        <div class="c10h4">Sample footer text</div>
+        <div class="c10h5"> <u>Templates</u> created with <u>Website Builder Software</u>.</div>
+    </section>
+
+</body>
+
+</html>
